@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Globe, Mail, MessageSquare, AtSign } from 'lucide-react'
+import logo from '../assets/whitelogo.png'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 48 },
@@ -55,8 +56,8 @@ export default function Footer() {
           className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12 mb-12"
         >
           <motion.div variants={fadeUp} className="col-span-2 md:col-span-1">
-            <a href="#home" className="inline-block text-xl font-bold font-heading brand-gradient mb-4">
-              Ascentra capital
+            <a href="#home" className="inline-block mb-4">
+              <img src={logo} alt="Ascentra Capital" className="h-[100px] w-auto object-contain" />
             </a>
             <p className="text-sm text-muted mb-5 leading-relaxed">
               India&apos;s fastest Ascentra capital platform. Built for retail traders and professional fund managers.

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, Moon, Sun, X } from 'lucide-react'
+import logo from '../assets/whitelogo.png'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 48 },
@@ -54,7 +55,7 @@ export default function Navbar({ theme, onToggleTheme }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#home" className="flex items-center gap-2" onClick={() => handleLinkClick('#home')}>
-            <span className="text-xl lg:text-2xl font-bold font-heading brand-gradient">Ascentra capital</span>
+            <img src={logo} alt="Ascentra Capital" className="h-10 lg:h-[60px] w-auto object-contain" />
           </a>
 
           <motion.div
