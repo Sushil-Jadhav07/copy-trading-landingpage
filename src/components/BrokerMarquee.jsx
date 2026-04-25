@@ -6,11 +6,11 @@ const fadeUp = {
 }
 
 const brokers = [
-  { name: 'Zerodha', color: '#5B5FEE' },
+  { name: 'Zerodha', color: '#00C896' },
   { name: 'Groww', color: '#22C55E' },
   { name: 'Angel One', color: '#F59E0B' },
   { name: 'Upstox', color: '#8B5CF6' },
-  { name: 'Dhan', color: '#5B5FEE' },
+  { name: 'Dhan', color: '#00C896' },
 ]
 
 export default function BrokerMarquee() {

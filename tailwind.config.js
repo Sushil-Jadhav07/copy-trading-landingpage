@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#5B5FEE',
-        'primary-hover': '#4A4ECC',
+        primary: '#00C896',
+        'primary-hover': '#00A878',
         background: 'rgb(var(--color-bg) / <alpha-value>)',
         foreground: 'rgb(var(--color-fg) / <alpha-value>)',
         muted: 'rgb(var(--color-muted) / <alpha-value>)',

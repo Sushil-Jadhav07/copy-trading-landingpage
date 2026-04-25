@@ -14,12 +14,12 @@ const stagger = {
 
 const faqs = [
   {
-    question: 'What is copy trading?',
-    answer: 'Copy trading is an automated system where trades placed by an expert Master trader are instantly replicated to one or more Child accounts  -  proportionally scaled based on account size or a custom factor. You benefit from expert trading without having to analyze markets yourself.',
+    question: 'What is Ascentra capital?',
+    answer: 'Ascentra capital is an automated system where trades placed by an expert Master trader are instantly replicated to one or more Child accounts  -  proportionally scaled based on account size or a custom factor. You benefit from expert trading without having to analyze markets yourself.',
   },
   {
-    question: 'How fast does Copy Trading replicate trades?',
-    answer: 'Copy Trading replicates trades in under 100ms end-to-end. Broker API latency accounts for 30-40ms. Our system\'s async event pipeline handles the remaining 60-70ms  -  covering risk checks, scaling, and multi-account execution in parallel.',
+    question: 'How fast does Ascentra capital replicate trades?',
+    answer: 'Ascentra capital replicates trades in under 100ms end-to-end. Broker API latency accounts for 30-40ms. Our system\'s async event pipeline handles the remaining 60-70ms  -  covering risk checks, scaling, and multi-account execution in parallel.',
   },
   {
     question: 'Which brokers are supported?',
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'Can a Child account trade independently while copying?',
-    answer: 'Yes. Child accounts can place their own personal trades independently, at any time, even while copy trading is active. Copied trades and personal trades are tracked separately in the dashboard.',
+    answer: 'Yes. Child accounts can place their own personal trades independently, at any time, even while Ascentra capital is active. Copied trades and personal trades are tracked separately in the dashboard.',
   },
   {
     question: 'What happens if a child doesn\'t have enough margin?',
@@ -39,15 +39,15 @@ const faqs = [
   },
   {
     question: 'Can the Master control which children copy their trades?',
-    answer: 'Yes. Masters select exactly which child accounts copy their trades and can add or remove children anytime. They can also pause copying for a specific child without affecting others.',
+    answer: 'Yes. Masters select which child accounts are mapped to copy their trades, and Admin controls account access and assignment.',
   },
   {
-    question: 'Is Copy Trading SEBI compliant?',
-    answer: 'Copy Trading is a technology platform that provides trade replication infrastructure. It does not provide trading advice, signals, or financial recommendations. All trading decisions are made by the Master trader. Users are responsible for their own trading compliance.',
+    question: 'Is Ascentra capital SEBI compliant?',
+    answer: 'Ascentra capital is a technology platform that provides trade replication infrastructure. It does not provide trading advice, signals, or financial recommendations. All trading decisions are made by the Master trader. Users are responsible for their own trading compliance.',
   },
   {
     question: 'How is my data secured?',
-    answer: 'We use JWT authentication, role-based access control, VPC network isolation, HTTPS/TLS encryption everywhere, IAM roles for cloud resources, and OTP verification. Broker API tokens are encrypted in-memory using Redis  -  never stored in plain text.',
+    answer: 'We secure the platform with JWT authentication, role-based access control, HTTPS/TLS encryption, and optional 2FA / OTP verification, with continuous monitoring and access controls.',
   },
 ]
 

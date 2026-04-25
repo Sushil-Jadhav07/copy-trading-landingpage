@@ -15,7 +15,7 @@ export default function CTABanner() {
   return (
     <section className="py-20 lg:py-28 relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-purple-900/20"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-primary-hover/25"></div>
       <motion.div
         animate={{ scale: [1, 1.1, 1], opacity: [0.1, 0.2, 0.1] }}
         transition={{ repeat: Infinity, duration: 8, ease: 'easeInOut' }}
@@ -38,7 +38,7 @@ export default function CTABanner() {
           </motion.h2>
 
           <motion.p variants={fadeUp} className="text-lg text-muted max-w-2xl mx-auto mb-8">
-            Join thousands of Indian traders automating their portfolio with Copy Trading. Set up in minutes. Trade smarter from day one.
+            Join thousands of Indian traders automating their portfolio with Ascentra capital. Set up in minutes. Trade smarter from day one.
           </motion.p>
 
           <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-3 justify-center mb-8">

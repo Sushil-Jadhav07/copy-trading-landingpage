@@ -12,10 +12,10 @@ const stagger = {
 }
 
 const stats = [
-  { value: '< 100ms', numericValue: 100, suffix: 'ms', prefix: '< ', label: 'Average Trade Replication Latency', isText: true },
+  { value: '<100ms', numericValue: '<100ms', suffix: '', prefix: '', label: 'Average Trade Replication Latency', isText: true },
   { value: '5+', numericValue: 5, suffix: '+', prefix: '', label: 'Indian Brokers Supported', isText: true },
-  { value: '99.9%', numericValue: 99.9, suffix: '%', prefix: '', label: 'Platform Uptime SLA', isText: false },
-  { value: '3', numericValue: 3, suffix: '', prefix: '', label: 'Admin, Master & Child Architecture', isText: true },
+  { value: 'High', numericValue: 'High', suffix: '', prefix: '', label: 'Availability', isText: true },
+  { value: '3', numericValue: 3, suffix: '', prefix: '', label: 'User Roles: Admin, Master & Child', isText: true },
 ]
 
 function CountUp({ target, suffix, prefix, isText, inView }) {

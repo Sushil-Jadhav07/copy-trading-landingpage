@@ -50,7 +50,7 @@ const terminalLines = [
 
 function DonutChart() {
   const segments = [
-    { label: 'NIFTY', value: 35, color: '#5B5FEE' },
+    { label: 'NIFTY', value: 35, color: '#00C896' },
     { label: 'BANKNIFTY', value: 25, color: '#22C55E' },
     { label: 'RELIANCE', value: 20, color: '#F59E0B' },
     { label: 'Cash', value: 20, color: '#1C1C2E' },
@@ -124,7 +124,7 @@ export default function RiskEngine() {
             Risk Management  -  Built Into Every Trade
           </motion.h2>
           <motion.p variants={fadeUp} className="text-lg text-muted max-w-2xl mx-auto">
-            Copy Trading&apos;s Risk Engine runs before every single replication. No trade copies to a child unless it passes all risk checks.
+            Ascentra capital&apos;s Risk Engine runs before every single replication. No trade copies to a child unless it passes all risk checks.
           </motion.p>
         </motion.div>
 

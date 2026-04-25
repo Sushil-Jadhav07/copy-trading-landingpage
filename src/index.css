@@ -62,8 +62,8 @@ html {
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(91, 95, 238, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(91, 95, 238, 0.6); }
+  0%, 100% { box-shadow: 0 0 20px rgba(0, 200, 150, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(0, 200, 150, 0.6); }
 }
 
 .pulse-glow {
@@ -84,5 +84,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #5B5FEE;
+  background: #00C896;
+}
+
+.brand-gradient {
+  background: linear-gradient(90deg, rgb(0, 200, 150) 0%, rgb(0, 168, 120) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

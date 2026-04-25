@@ -15,12 +15,12 @@ const stagger = {
 const testimonials = [
   {
     stars: 5,
-    quote: 'I manage 15 child accounts for my clients. Copy Trading makes it effortless  -  I place one trade and all 15 execute in seconds. The scaling factor feature is a game changer.',
+    quote: 'I manage 15 child accounts for my clients. Ascentra capital makes it effortless  -  I place one trade and all 15 execute in seconds. The scaling factor feature is a game changer.',
     name: 'Rajesh M.',
     role: 'Professional Trader',
     location: 'Mumbai',
     initials: 'RM',
-    color: '#5B5FEE',
+    color: '#00C896',
   },
   {
     stars: 5,
@@ -69,7 +69,7 @@ export default function Testimonials() {
             Trusted by Traders Across India
           </motion.h2>
           <motion.p variants={fadeUp} className="text-lg text-muted max-w-2xl mx-auto">
-            From first-time investors to professional fund managers  -  Copy Trading scales with you.
+            From first-time investors to professional fund managers  -  Ascentra capital scales with you.
           </motion.p>
         </motion.div>
 
@@ -85,7 +85,7 @@ export default function Testimonials() {
             <motion.div
               key={i}
               variants={fadeUp}
-              whileHover={{ y: -6, boxShadow: '0 0 32px rgba(91,95,238,0.18)' }}
+              whileHover={{ y: -6, boxShadow: '0 0 32px rgba(0,200,150,0.2)' }}
               className="bg-card border border-border rounded-2xl p-6 relative transition-all"
             >
               <Quote size={32} className="text-primary/30 mb-4" />

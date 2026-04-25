@@ -124,7 +124,7 @@ export default function Pricing() {
             <motion.div
               key={i}
               variants={fadeUp}
-              whileHover={{ y: -8, boxShadow: plan.popular ? '0 0 48px rgba(91,95,238,0.25)' : '0 0 32px rgba(91,95,238,0.18)' }}
+              whileHover={{ y: -8, boxShadow: plan.popular ? '0 0 48px rgba(0,200,150,0.28)' : '0 0 32px rgba(0,200,150,0.2)' }}
               className={`bg-card border rounded-2xl p-6 lg:p-8 transition-all relative ${
                 plan.popular ? 'border-primary scale-[1.03] shadow-xl shadow-primary/10' : 'border-border'
               }`}

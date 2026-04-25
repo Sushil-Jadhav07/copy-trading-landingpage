@@ -21,10 +21,10 @@ const footerLinks = {
   ],
   markets: [
     { label: 'NSE & BSE Trading', href: '#' },
-    { label: 'F&O Copy Trading', href: '#' },
+    { label: 'F&O Ascentra capital', href: '#' },
     { label: 'Zerodha Integration', href: '#' },
     { label: 'Angel One Integration', href: '#' },
-    { label: 'All Brokers →', href: '#brokers' },
+    { label: 'All Brokers ->', href: '#brokers' },
   ],
   company: [
     { label: 'About Us', href: '#' },
@@ -54,13 +54,12 @@ export default function Footer() {
           viewport={{ once: true, amount: 0.1 }}
           className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12 mb-12"
         >
-          {/* Brand Column */}
           <motion.div variants={fadeUp} className="col-span-2 md:col-span-1">
-            <a href="#home" className="inline-block text-xl font-bold font-heading text-primary mb-4">
-              ⚡ Copy Trading
+            <a href="#home" className="inline-block text-xl font-bold font-heading brand-gradient mb-4">
+              Ascentra capital
             </a>
             <p className="text-sm text-muted mb-5 leading-relaxed">
-              India&apos;s fastest copy trading platform. Built for retail traders and professional fund managers.
+              India&apos;s fastest Ascentra capital platform. Built for retail traders and professional fund managers.
             </p>
             <div className="flex gap-3">
               {socialIcons.map((social) => {
@@ -79,7 +78,6 @@ export default function Footer() {
             </div>
           </motion.div>
 
-          {/* Product Column */}
           <motion.div variants={fadeUp}>
             <h4 className="text-sm font-semibold mb-4">Product</h4>
             <ul className="space-y-2.5">
@@ -93,7 +91,6 @@ export default function Footer() {
             </ul>
           </motion.div>
 
-          {/* Markets Column */}
           <motion.div variants={fadeUp}>
             <h4 className="text-sm font-semibold mb-4">Markets & Brokers</h4>
             <ul className="space-y-2.5">
@@ -107,7 +104,6 @@ export default function Footer() {
             </ul>
           </motion.div>
 
-          {/* Company Column */}
           <motion.div variants={fadeUp}>
             <h4 className="text-sm font-semibold mb-4">Company</h4>
             <ul className="space-y-2.5">
@@ -122,23 +118,20 @@ export default function Footer() {
           </motion.div>
         </motion.div>
 
-        {/* Bottom Bar */}
         <div className="border-t border-border pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-muted">
-              &copy; 2025 Copy Trading Technologies Pvt. Ltd. All rights reserved.
+              &copy; 2025 Ascentra capital Technologies Pvt. Ltd. All rights reserved.
             </p>
             <p className="text-xs text-muted">
-              Made with ❤️ in India 🇮🇳
+              Made with care in India
             </p>
           </div>
           <p className="text-[10px] text-muted/50 text-center mt-3">
-            Copy Trading is a technology platform. We do not provide financial advice. All trading carries risk.
+            Ascentra capital is a technology platform. We do not provide financial advice. All trading carries risk.
           </p>
         </div>
       </div>
     </footer>
   )
 }
-
-

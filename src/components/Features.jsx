@@ -35,7 +35,7 @@ const features = [
   {
     icon: Scale,
     title: 'Per-Child Scaling Factors',
-    description: 'Masters configure scaling per child  -  0.5x, 1x, 2x, or custom. The system auto-calculates quantity for each child\'s account size and risk tolerance.',
+    description: 'Custom scaling per child (e.g. 0.5x, 1x, 2x). The system auto-calculates quantity for each child\'s account size and risk tolerance.',
   },
   {
     icon: BarChart3,
@@ -55,7 +55,7 @@ const features = [
   {
     icon: Lock,
     title: 'Enterprise-Grade Security',
-    description: 'JWT auth, role-based access control, VPC network isolation, HTTPS/TLS encryption, IAM roles, and OTP verification  -  bank-level security throughout.',
+    description: 'JWT authentication, role-based access control, HTTPS/TLS encryption, and optional 2FA / OTP verification  -  secure by design.',
   },
 ]
 
@@ -91,7 +91,7 @@ export default function Features() {
               <motion.div
                 key={i}
                 variants={fadeUp}
-                whileHover={{ y: -6, boxShadow: '0 0 32px rgba(91,95,238,0.18)' }}
+                whileHover={{ y: -6, boxShadow: '0 0 32px rgba(0,200,150,0.2)' }}
                 className="bg-card border border-border rounded-2xl p-6 transition-all duration-300 border-l-[3px] border-l-primary"
               >
                 <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-4">

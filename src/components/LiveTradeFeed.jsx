@@ -67,7 +67,7 @@ export default function LiveTradeFeed() {
               Watch Trades Copy in Real Time
             </motion.h2>
             <motion.p variants={fadeUp} className="text-muted mb-8 leading-relaxed">
-              Every time a Master places a trade, Copy Trading instantly broadcasts it to all subscribed children. Here&apos;s a live simulation of what that looks like.
+              Every time a Master places a trade, Ascentra capital instantly broadcasts it to all subscribed children. Here&apos;s a live simulation of what that looks like.
             </motion.p>
 
             <motion.ul variants={fadeUp} className="space-y-3">

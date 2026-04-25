@@ -25,10 +25,10 @@ const roles = [
       'Assign and configure broker connections per user',
       'Activate or deactivate any user account',
       'Monitor all trade logs across all users',
+      'Monitor system logs and trade activity',
       'View system health, uptime, and error logs',
       'Manage subscription plans and billing',
       'Access full analytics dashboard',
-      'Configure risk limits at the platform level',
     ],
     mockup: (
       <div className="bg-dark/60 rounded-xl border border-border p-4">
@@ -66,7 +66,6 @@ const roles = [
       'Monitor child performance vs own performance',
       'Cancel or modify trades  -  changes propagate instantly',
       'View full trade history with replication logs',
-      'Pause copying for specific children independently',
     ],
     mockup: (
       <div className="bg-dark/60 rounded-xl border border-border p-4 space-y-4">
@@ -108,7 +107,7 @@ const roles = [
     title: 'Child  -  Automated Trade Follower',
     description: 'The Child subscribes to a Master and automatically mirrors every trade  -  with full control over their own risk.',
     capabilities: [
-      'Browse and subscribe to available Master traders',
+      'Subscribe to a designated Master account',
       'All Master trades auto-copied to their account',
       'Configure personal scaling factor (independent of Master\'s setting)',
       'Pause copying instantly  -  no trades copied while paused',
@@ -170,7 +169,7 @@ export default function UserRoles() {
             One Platform, Three Powerful Roles
           </motion.h2>
           <motion.p variants={fadeUp} className="text-lg text-muted max-w-2xl mx-auto">
-            Copy Trading is designed with a clear role hierarchy  -  each role has exactly the access and tools it needs.
+            Ascentra capital is designed with a clear role hierarchy  -  each role has exactly the access and tools it needs.
           </motion.p>
         </motion.div>
 

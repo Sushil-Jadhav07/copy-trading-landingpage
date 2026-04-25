@@ -42,7 +42,7 @@ export default function Hero() {
           duration: 10,
           ease: 'easeInOut',
         }}
-        className="absolute bottom-[-50px] right-[-50px] w-[400px] h-[400px] bg-purple-700 rounded-full blur-[100px] pointer-events-none"
+        className="absolute bottom-[-50px] right-[-50px] w-[400px] h-[400px] bg-primary-hover rounded-full blur-[100px] pointer-events-none"
         style={{ opacity: 0.1 }}
       />
 
@@ -57,7 +57,7 @@ export default function Hero() {
             {/* Pill Badge */}
             <motion.div variants={fadeUp} className="mb-6">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/40 bg-primary/10 text-primary text-sm font-medium">
-                ⚡ India's Fastest Copy Trading Platform
+                ⚡ India's Fastest Ascentra capital Platform
               </span>
             </motion.div>
 
@@ -72,7 +72,7 @@ export default function Hero() {
 
             {/* Subheadline */}
             <motion.p variants={fadeUp} className="text-lg text-muted mb-8 max-w-xl leading-relaxed">
-              Copy Trading replicates trades from Master accounts to unlimited Child accounts in under 100ms  -  across Zerodha, Groww, Angel One, Upstox & Dhan. Set scaling factors, manage risk, and trade smarter  -  automatically.
+              Ascentra capital replicates trades from Master accounts to multiple Child accounts in under 100ms  -  across Zerodha, Groww, Angel One, Upstox & Dhan. Set scaling factors, manage risk, and trade smarter  -  automatically.
             </motion.p>
 
             {/* CTA Row */}
@@ -82,7 +82,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.96 }}
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-primary text-white font-semibold rounded-xl hover:bg-primary-hover transition-colors"
               >
-                Start Copy Trading <ArrowRight size={18} />
+                Request Access <ArrowRight size={18} />
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -96,7 +96,6 @@ export default function Hero() {
             {/* Trust Signals */}
             <motion.div variants={fadeUp} className="flex flex-wrap gap-4 sm:gap-6 text-sm text-muted">
               {[
-                'No credit card required',
                 '<100ms latency',
                 '5+ brokers',
                 'NSE & BSE supported',
@@ -128,7 +127,7 @@ export default function Hero() {
                     <span className="w-3 h-3 rounded-full bg-yellow-500/80"></span>
                     <span className="w-3 h-3 rounded-full bg-green-500/80"></span>
                   </div>
-                  <span className="ml-3 text-sm font-semibold font-heading">Copy Trading Dashboard</span>
+                  <span className="ml-3 text-sm font-semibold font-heading">Ascentra capital Dashboard</span>
                 </div>
                 <div className="flex items-center gap-1.5 text-green-400 text-xs font-medium">
                   <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> Live
@@ -209,13 +208,13 @@ export default function Hero() {
 
                 {/* Child Accounts */}
                 <div className="flex items-center justify-between pt-2 border-t border-border">
-                  <span className="text-xs text-muted">Children Copying: <span className="text-foreground font-semibold">8 active</span></span>
+                  <span className="text-xs text-muted">Children Copying: <span className="text-foreground font-semibold">5 active</span></span>
                   <div className="flex -space-x-2">
-                    {[...Array(8)].map((_, i) => (
+                    {[...Array(5)].map((_, i) => (
                       <div
                         key={i}
                         className="w-7 h-7 rounded-full border-2 border-card flex items-center justify-center text-[10px] font-bold"
-                        style={{ backgroundColor: ['#5B5FEE', '#22C55E', '#EF4444', '#F59E0B', '#8B5CF6', '#EC4899', '#06B6D4', '#84CC16'][i] }}
+                        style={{ backgroundColor: ['#00C896', '#22C55E', '#EF4444', '#F59E0B', '#10B981', '#EC4899', '#06B6D4', '#84CC16'][i] }}
                       >
                         {String.fromCharCode(65 + i)}
                       </div>

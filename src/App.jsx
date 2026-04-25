@@ -14,6 +14,7 @@ import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
 import CTABanner from './components/CTABanner'
 import Footer from './components/Footer'
+import ScrollToTopProgress from './components/ScrollToTopProgress'
 
 function App() {
   const [theme, setTheme] = useState('dark')
@@ -55,6 +56,7 @@ function App() {
       <FAQ />
       <CTABanner />
       <Footer />
+      <ScrollToTopProgress />
     </div>
   )
 }

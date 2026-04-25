@@ -14,8 +14,9 @@ const stagger = {
 
 const navLinks = [
   { label: 'Home', href: '#home' },
-  { label: 'Features', href: '#features' },
+
   { label: 'How It Works', href: '#how-it-works' },
+    { label: 'Features', href: '#features' },
   { label: 'Brokers', href: '#brokers' },
   { label: 'Pricing', href: '#pricing' },
   { label: 'FAQ', href: '#faq' },
@@ -53,7 +54,7 @@ export default function Navbar({ theme, onToggleTheme }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#home" className="flex items-center gap-2" onClick={() => handleLinkClick('#home')}>
-            <span className="text-xl lg:text-2xl font-bold font-heading text-primary">Copy Trading</span>
+            <span className="text-xl lg:text-2xl font-bold font-heading brand-gradient">Ascentra capital</span>
           </a>
 
           <motion.div

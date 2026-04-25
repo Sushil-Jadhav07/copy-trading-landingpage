@@ -20,7 +20,7 @@ const steps = [
   {
     icon: Zap,
     title: 'System Captures the Event',
-    description: 'Our real-time trade engine, powered by Kafka event streams and Spring WebFlux, captures the trade signal the moment it\'s placed  -  with zero polling delay.',
+    description: 'Our real-time event pipeline captures the trade signal the moment it is placed  -  with zero polling delay.',
   },
   {
     icon: Search,
@@ -35,7 +35,7 @@ const steps = [
   {
     icon: CheckCircle,
     title: 'Child Trades Execute',
-    description: 'All eligible child accounts receive and execute the trade in parallel  -  via async multi-thread execution. The full pipeline completes in <100ms.',
+    description: 'All eligible child accounts receive and execute the trade in parallel through our execution engine. The full pipeline completes in <100ms.',
   },
 ]
 
@@ -51,7 +51,7 @@ export default function HowItWorks() {
           className="text-center mb-16"
         >
           <motion.h2 variants={fadeUp} className="text-3xl lg:text-5xl font-extrabold font-heading mb-4">
-            How Copy Trading Works
+            How Ascentra capital Works
           </motion.h2>
           <motion.p variants={fadeUp} className="text-lg text-muted max-w-2xl mx-auto">
             From master trade execution to child account replication  -  all in under 100 milliseconds.
